@@ -5,7 +5,7 @@ import makeWASocket, {
   useMultiFileAuthState
 } from "@whiskeysockets/baileys";
 import pino from "pino";
-import QRCode from "qrcode-terminal";
+import QRCode from "qrcode";
 
 const app = express();
 const PORT = process.env.PORT || 3000;
