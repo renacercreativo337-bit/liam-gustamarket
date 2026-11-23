@@ -1,0 +1,13 @@
+
+node_modules/
+.env
+.env.*
+!.env.example
+
+auth_info/
+session/
+sessions/
+.baileys/
+
+*.log
+.DS_Store
